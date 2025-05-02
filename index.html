@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buku Cerita Seta & Ancira</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: #f0e5e5;
+    }
+    h1 {
+      color: #d63384;
+    }
+    #pdf-container {
+      margin-top: 20px;
+    }
+    #audio-control {
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 10px;
+      background: #ff69b4;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Buku Cerita Seta & Ancira 💕</h1>
+
+  <!-- Tampilkan PDF -->
+  <div id="pdf-container">
+    <embed src="cerita-seta-ancira.pdf" type="application/pdf" width="100%" height="600px" />
+  </div>
+
+  <!-- Kontrol Musik -->
+  <div id="audio-control">
+    <audio id="musik" autoplay loop>
+      <source src="musik-romantis.mp3" type="audio/mpeg">
+      Browser kamu tidak mendukung audio.
+    </audio>
+  </div>
+</body>
+</html>
